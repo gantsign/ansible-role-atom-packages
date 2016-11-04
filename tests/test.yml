@@ -1,5 +1,29 @@
 ---
-- hosts: localhost
+- hosts: all
   remote_user: root
+
+  pre_tasks:
+    - name: create test users
+      become: yes
+      user:
+        name: '{{ item }}'
+        state: present
+        home: '/home/{{ item }}'
+        createhome: yes
+      with_items:
+        - test_usr
+        - test_usr2
+        - test_usr3
+
   roles:
-    - ansible-role-atom-packages
+    - role: gantsign.atom
+
+    - role: ansible-role-atom-packages
+      users:
+        - username: test_usr
+          atom_packages:
+            - minimap
+            - linter
+        - username: test_usr2
+          atom_packages: []
+        - username: test_usr3
