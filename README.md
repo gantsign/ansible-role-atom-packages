@@ -2,6 +2,7 @@ Ansible Role: Atom
 ==================
 
 [![Build Status](https://travis-ci.org/gantsign/ansible-role-atom-packages.svg?branch=master)](https://travis-ci.org/gantsign/ansible-role-atom-packages)
+[![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-gantsign.atom--packages-blue.svg)](https://galaxy.ansible.com/gantsign/atom-packages)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gantsign/ansible-role-atom-packages/master/LICENSE)
 
 Role to install packages for the [atom.io](https://atom.io) text editor by
