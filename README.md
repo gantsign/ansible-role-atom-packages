@@ -1,5 +1,5 @@
-Ansible Role: Atom
-==================
+Ansible Role: Atom Packages
+===========================
 
 [![Build Status](https://travis-ci.org/gantsign/ansible-role-atom-packages.svg?branch=master)](https://travis-ci.org/gantsign/ansible-role-atom-packages)
 [![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-gantsign.atom--packages-blue.svg)](https://galaxy.ansible.com/gantsign/atom-packages)
