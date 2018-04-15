@@ -33,7 +33,7 @@ install:
   - pip install 'docker<3.0'
 
   # Install Molecule
-  - pip install 'molecule==1.24'
+  - pip install 'molecule==2.12.1'
 
   # Check Ansible version
   - ansible --version
@@ -42,11 +42,11 @@ install:
   - molecule --version
 
   # Build the Docker images
-  - molecule create
-  - molecule destroy
+  - molecule create --scenario-name=$MOLECULE_SCENARIO
+  - molecule destroy --scenario-name=$MOLECULE_SCENARIO
 
 script:
-  - molecule test
+  - molecule test --scenario-name=$MOLECULE_SCENARIO
 
 branches:
   only:
