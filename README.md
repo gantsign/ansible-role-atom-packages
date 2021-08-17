@@ -1,7 +1,7 @@
 Ansible Role: Atom Packages
 ===========================
 
-[![Build Status](https://travis-ci.com/gantsign/ansible-role-atom-packages.svg?branch=master)](https://travis-ci.com/gantsign/ansible-role-atom-packages)
+[![Tests](https://github.com/gantsign/ansible-role-atom-packages/workflows/Tests/badge.svg)](https://github.com/gantsign/ansible-role-atom-packages/actions?query=workflow%3ATests)
 [![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-gantsign.atom--packages-blue.svg)](https://galaxy.ansible.com/gantsign/atom-packages)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gantsign/ansible-role-atom-packages/master/LICENSE)
 
